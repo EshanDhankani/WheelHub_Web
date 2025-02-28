@@ -1,0 +1,55 @@
+.mech{
+  /* background: linear-gradient(#9055ff, #ed7b84, #9055ff);  */
+  background-image: linear-gradient(142deg, #030950, #12175F, #2F1F2F);
+  margin-top: -2rem;
+}
+
+.applyMechanic-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.applyMechanic-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+}
+
+.form-heading span {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 6px;
+  width: 80%;
+  background: linear-gradient(120deg, #D52728, #33C0FF, #5733FF, #030947);
+  border-radius: 5px;
+}
+
+.form-input {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.btn {
+  background-color: #030947;
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: none;
+}

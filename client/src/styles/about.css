@@ -1,0 +1,31 @@
+.body
+{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.about-heading
+{
+    color: #212529;
+    font-size: 2.4em;
+    font-weight: 500 !important;
+}
+.aboutimgdiv
+{
+    margin-left: -2rem;
+   
+   
+
+}
+.aboutimage
+{
+    border-radius: 10px;
+    
+}
+.hero-content p
+{
+    /* font-family: "Poppins", serif; */
+    color: #212529;
+    margin-top: 1rem;
+    text-align: justify;
+    /* font-weight: 500 !important; */
+}

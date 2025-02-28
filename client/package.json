@@ -1,0 +1,80 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@fontsource/poppins": "^5.0.14",
+    "@mui/icons-material": "^5.16.8",
+    "@mui/material": "^5.16.8",
+    "@mui/x-charts": "^7.4.0",
+    "@react-oauth/google": "^0.12.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stripe/react-stripe-js": "^3.0.0",
+    "@stripe/stripe-js": "^5.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.0",
+    "crypto": "^1.0.1",
+    "express-validator": "^7.1.0",
+    "jwt-decode": "^3.1.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.439.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-countup": "^6.4.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^5.3.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.26.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "react-spinners": "^0.13.8",
+    "react-time-picker": "^5.2.0",
+    "react-toastify": "^10.0.5",
+    "shadcn-ui": "^0.9.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.8.0",
+    "swiper": "^11.1.15",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "cross-env": "^7.0.3"
+  }
+}

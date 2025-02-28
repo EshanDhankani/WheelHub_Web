@@ -1,0 +1,161 @@
+/* Main container for the registration section */
+.register{
+  height: 200vh;
+  background-image: linear-gradient(142deg, #030950, #12175F, #2F1F2F);
+}
+
+.register-section {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+
+/* Container for the registration form */
+.register-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading style for the registration form */
+.form-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  color: #030947;
+  text-align: center;
+}
+
+/* Decorative underline for the form heading */
+.form-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(120deg, #D52728, #33C0FF, #5733FF, #030947);
+  border-radius: 5px;
+}
+
+/* Styling for the form within the registration container */
+.register-form {
+  width: 100%;
+}
+
+/* Input fields within the form */
+.form-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Submit button for the registration form */
+.form-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #030947;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+.form-btn:hover {
+  background-color: #02082b;
+}
+
+/* Login link styling */
+.login-link {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Hover effect for the login link */
+.login-link:hover {
+  color: #D52728;
+}
+
+/* Responsive styles for devices with max-width of 768px */
+@media (max-width: 768px) {
+  /* Adjust form heading size */
+  .form-heading {
+    font-size: 24px;
+  }
+
+  /* Adjust padding within the registration container */
+  .register-container {
+    padding: 20px;
+  }
+
+  /* Smaller input fields for better fit on mobile devices */
+  .form-input {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* Adjust button font size */
+  .form-btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  /* Adjust login link font size */
+  .login-link {
+    font-size: 0.9rem;
+  }
+
+  /* Adjust heading size for MUI Typography (Material-UI specific) */
+  .MuiTypography-h5 {
+    font-size: 48px;
+  }
+
+  /* Adjust padding within the MUI Box component */
+  .MuiBox-root {
+    padding: 0 2rem;
+  }
+}
+
+/* Further styling for even smaller screens */
+@media (max-width: 480px) {
+  /* Smaller form heading for very small devices */
+  .form-heading {
+    font-size: 20px;
+  }
+
+  /* Smaller input fields for compact view */
+  .form-input {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* Adjust button font size and padding */
+  .form-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* Adjust login link font size */
+  .login-link {
+    font-size: 0.8rem;
+  }
+}

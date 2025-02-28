@@ -1,0 +1,92 @@
+
+.admin-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: #f7f8fc; */
+    background-image: linear-gradient(142deg, #030950, #12175F, #2F1F2F);
+  }
+  
+  .admin-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #030947;
+  }
+  
+  /* Table styles */
+  .admin-table-container {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .admin-table th {
+    background-color: #030947;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .admin-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Avatar styles */
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Button styles */
+  .action-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  
+  .accept-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .admin-container {
+      padding: 10px;
+    }
+  
+    .admin-header {
+      font-size: 1.5rem;
+    }
+  
+    .admin-table th,
+    .admin-table td {
+      padding: 8px;
+    }
+  
+    .action-button {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+  }
+  
